@@ -24,8 +24,10 @@
         "ext-soap": "*",
         "ext-curl": "*",
         "ass/xmlsecurity": "~1.0",
-        "symfony/framework-bundle": "~2.6",
-        "symfony/twig-bundle": "~2.6",
+        "symfony/config": "^5.1",
+        "symfony/filesystem": "^5.1",
+        "symfony/framework-bundle": "^5.1",
+        "symfony/twig-bundle": "^5.1",
         "zendframework/zend-mime": "2.1.*"
     },
     "replace": {
@@ -37,9 +39,9 @@
     },
     "require-dev": {
         "ext-mcrypt": "*",
-        "mikey179/vfsStream": "~1.0",
-        "symfony/filesystem": "~2.3",
-        "symfony/process": "~2.3"
+        "mikey179/vfsstream": "~1.0",
+        "symfony/process": "^5.1",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-0": { "BeSimple\\": "src/" }
